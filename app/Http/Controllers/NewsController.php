@@ -23,7 +23,7 @@ class NewsController extends Controller
     public function store(Request $request)
     {
         $news_data = $request->all();
-        dd($news_data);
+        // dd($news_data);
 
         //上傳主要圖片
         if($request->hasFile('img')) {
