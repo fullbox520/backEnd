@@ -1,5 +1,5 @@
 <?php
-
+// 前台控制器
 namespace App\Http\Controllers;
 
 use App\News;
