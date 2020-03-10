@@ -19,7 +19,8 @@ class CreateProducts extends Migration
             $table->integer('sort')->default(0);
             $table->string('title')->default("TEST TITLE");
             $table->string('content')->nullable();
-            $table->string('types_id')
+            $table->string('types_id');
+        });
     }
 
     /**
